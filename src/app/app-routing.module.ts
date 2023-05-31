@@ -11,16 +11,15 @@ import { ModalComponent } from './portfolio/components/modal/modal.component';
 import { PortfolioComponent } from './portfolio/components/portfolio/portfolio.component';
 
 const routes: Routes = [
-  
   {
-    path: "",
-    redirectTo: "/home",
-    pathMatch: "full"
+    path:"",
+    component: HomeComponent,
+    
   },
   {
     path:"home",
-    component: HomeComponent,
-    
+    redirectTo: "",
+    pathMatch: "full"
   },
   // {
   //   path:"introduction",
