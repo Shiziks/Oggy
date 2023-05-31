@@ -1,0 +1,134 @@
+[
+    {
+        "id":"1",
+        "fieldname": "art direction",
+        "fieldsections":[
+            {
+                "id":"1",
+                "sectionname":"design concept"
+            },
+            {
+                "id":"2",
+                "sectionname":"photography"
+            },
+            {
+                "id":"3",
+                "sectionname":"illustrations"
+            },
+            {
+                "id":"4",
+                "sectionname":"key visuals"
+            }
+
+        ]
+    
+    },
+    {
+        "id":"2",
+        "fieldname": "branding development",
+        "fieldsections":[
+            {
+                "id":"1",
+                "sectionname":"brand strategy"
+            },
+            {
+                "id":"2",
+                "sectionname":"brand guidelines"
+            },
+            {
+                "id":"3",
+                "sectionname":"brand positioning"
+            },
+            {
+                "id":"4",
+                "sectionname":"visual identity"
+            },
+            {
+                "id":"5",
+                "sectionname":"brand logo"
+            },
+            {
+                "id":"6",
+                "sectionname":"brand naming"
+            }
+
+        ]
+    
+    },
+    {
+        "id":"3",
+        "fieldname": "packaging design",
+        "fieldsections":[
+            {
+                "id":"1",
+                "sectionname":"inside of packaging"
+            },
+            {
+                "id":"2",
+                "sectionname":"outside of packaging"
+            },
+            {
+                "id":"3",
+                "sectionname":"mockup"
+            }
+            
+        ]
+    
+    },
+    {
+        "id":"4",
+        "fieldname": "editorial design",
+        "fieldsections":[
+            {
+                "id":"1",
+                "sectionname":"magazine design"
+            },
+            {
+                "id":"2",
+                "sectionname":"book design"
+            },
+            {
+                "id":"3",
+                "sectionname":"newspaper design"
+            },
+            {
+                "id":"4",
+                "sectionname":"brochure design"
+            },
+            {
+                "id":"5",
+                "sectionname":"redaction"
+            }
+
+        ]
+    
+    },
+    {
+        "id":"5",
+        "fieldname": "web and digital design",
+        "fieldsections":[
+            {
+                "id":"1",
+                "sectionname":"social media strategy"
+            },
+            {
+                "id":"2",
+                "sectionname":"social media visual identity"
+            },
+            {
+                "id":"3",
+                "sectionname":"social media content"
+            },
+            {
+                "id":"4",
+                "sectionname":"web banner design"
+            },
+            {
+                "id":"5",
+                "sectionname":"web add design"
+            }
+        ]
+    
+    }
+
+]

@@ -1,0 +1,1352 @@
+[
+    {
+        "id":"1",
+        "imgtitle":"Artfad diploma",
+        "imgalt": "Artfad diploma whole",
+        "imgurl": "../../assets/images/editorials/artfad_diploma.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid":"1",
+                "groupname": "Artfad",
+                "groupdesc": "The Art FAD yearly Awards diploma for artistic creation. These awards aim to recognise new contemporary art expressions by aknowledging the concept, the technique and the innovative use of materials done by artists and artisans."
+            }
+        ],
+        "category":[
+            {
+            "categoryid": "1",
+            "categoryname":"editorials",
+            "categorydesc": "printed designs",
+            "subcategory":[
+                {
+                    "subcategoryid":"1",
+                    "subcategorytitle":"diplomas",
+                    "subcategorydesc": "printed or other types of diplomas"
+                }
+            ]
+            }
+        ]
+    },
+    {
+        "id":"2",
+        "imgtitle":"Artfad diploma closeup",
+        "imgalt": "closup of the Artfad diploma",
+        "imgurl": "../../assets/images/editorials/artfad_diploma_closeup.jpg",
+        "slider":"1",
+        "group": [
+            {
+                "groupid":"1",
+                "groupname": "Artfad",
+                "groupdesc": "The Art FAD yearly Awards diploma for artistic creation. These awards aim to recognise new contemporary art expressions by aknowledging the concept, the technique and the innovative use of materials done by artists and artisans."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "1",
+                "categoryname":"editorials",
+                "categorydesc": "printed designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"1",
+                        "subcategorytitle":"diplomas",
+                        "subcategorydesc": "printed or other types of diplomas"
+                    }
+            ]
+            }
+        ]
+    },
+    {
+        "id":"3",
+        "imgtitle":"Artfad diploma in hand",
+        "imgalt": "hand holding an Artfad diploma",
+        "imgurl": "../../assets/images/editorials/artfad_diploma_hand.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid":"1",
+                "groupname": "Artfad",
+                "groupdesc": "The Art FAD yearly Awards diploma for artistic creation. These awards aim to recognise new contemporary art expressions by aknowledging the concept, the technique and the innovative use of materials done by artists and artisans."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "1",
+                "categoryname":"editorials",
+                "categorydesc": "printed designs",
+                "subcategory":[
+                {
+                    "subcategoryid":"1",
+                    "subcategorytitle":"diplomas",
+                    "subcategorydesc": "printed or other types of diplomas"
+                }
+            ]
+            }
+        ]
+    },
+    {
+        "id":"4",
+        "imgtitle":"Agenda brochure",
+        "imgalt": "Agenda brochure flat lay",
+        "imgurl": "../../assets/images/editorials/agenda_brochure.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "2",
+                "groupname": "Agenda CCCB brochure",
+                "groupdesc": "The Centre de Cultura Contemporània de Barcelona (CCCB) is a space for multi-disciplinary contemporary culture. The concept came out of seeing the museum as a receptacle for contemporary ideas."
+            }
+        ],
+        "category":[
+            {
+            "categoryid": "1",
+            "categoryname":"editorials",
+            "categorydesc": "printed designs",
+            "subcategory":[
+                {
+                    "subcategoryid":"2",
+                    "subcategorytitle":"brochures",
+                    "subcategorydesc": "handouts with informations"
+                }
+            ]
+            }
+        ]
+    },
+    {
+        "id":"5",
+        "imgtitle":"Agenda brochure inside",
+        "imgalt": "inside of the Agenda brochure",
+        "imgurl": "../../assets/images/editorials/agenda_brochure_inside.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "2",
+                "groupname": "Agenda CCCB brochure",
+                "groupdesc": "The Centre de Cultura Contemporània de Barcelona (CCCB) is a space for multi-disciplinary contemporary culture. The concept came out of seeing the museum as a receptacle for contemporary ideas."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "1",
+                "categoryname":"editorials",
+                "categorydesc": "printed designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"2",
+                        "subcategorytitle":"brochures",
+                        "subcategorydesc": "handouts with informations"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"6",
+        "imgtitle":"Agenda brochure stacked",
+        "imgalt": "all Agenda brochures stacked",
+        "imgurl": "../../assets/images/editorials/agenda_brochure_stacked.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "2",
+                "groupname": "Agenda CCCB brochure",
+                "groupdesc": "The Centre de Cultura Contemporània de Barcelona (CCCB) is a space for multi-disciplinary contemporary culture. The concept came out of seeing the museum as a receptacle for contemporary ideas."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "1",
+                "categoryname":"editorials",
+                "categorydesc": "printed designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"2",
+                        "subcategorytitle":"brochures",
+                        "subcategorydesc": "handouts with informations"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"8",
+        "imgtitle":"Grafikmagazine illustration",
+        "imgalt": "closeup of Grafikmagazine illustration",
+        "imgurl": "../../assets/images/editorials/grafikmagazine_illustration_closeup.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "3",
+                "groupname": "Grafik magazine",
+                "groupdesc": "Grafik is a creative platform that features the world’s leading graphic design and visual culture. Grafik launched as a bi-monthly magazine in 2003 and became one of the most popular design magazines in print."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "1",
+                "categoryname":"editorials",
+                "categorydesc": "printed designs",
+                "subcategory":[
+                    {
+                    "subcategoryid":"3",
+                    "subcategorytitle":"illustrations",
+                    "subcategorydesc": "creative interpretation of world"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"9",
+        "imgtitle":"Grafikmagazine girl",
+        "imgalt": "Grafikmagazine illustration girl",
+        "imgurl": "../../assets/images/editorials/grafikmagazine_illustration_girl.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "3",
+                "groupname": "Grafik magazine",
+                "groupdesc": "Grafik is a creative platform that features the world’s leading graphic design and visual culture. Grafik launched as a bi-monthly magazine in 2003 and became one of the most popular design magazines in print."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "1",
+                "categoryname":"editorials",
+                "categorydesc": "printed designs",
+                "subcategory":[
+                    {
+                    "subcategoryid":"3",
+                    "subcategorytitle":"illustrations",
+                    "subcategorydesc": "creative interpretation of world"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"10",
+        "imgtitle":"Grafikmagazine girl stack",
+        "imgalt": "Grafikmagazine illustration girl",
+        "imgurl": "../../assets/images/editorials/grafikmagazine_illustration_girl_front.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "3",
+                "groupname": "Grafik magazine",
+                "groupdesc": "Grafik is a creative platform that features the world’s leading graphic design and visual culture. Grafik launched as a bi-monthly magazine in 2003 and became one of the most popular design magazines in print."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "1",
+                "categoryname":"editorials",
+                "categorydesc": "printed designs",
+                "subcategory":[
+                    {
+                    "subcategoryid":"3",
+                    "subcategorytitle":"illustrations",
+                    "subcategorydesc": "creative interpretation of world"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"11",
+        "imgtitle":"Grafikmagazine red illustration",
+        "imgalt": "Grafikmagazine red illustration",
+        "imgurl": "../../assets/images/editorials/grafikmagazine_illustration_red.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "3",
+                "groupname": "Grafik magazine",
+                "groupdesc": "Grafik is a creative platform that features the world’s leading graphic design and visual culture. Grafik launched as a bi-monthly magazine in 2003 and became one of the most popular design magazines in print."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "1",
+                "categoryname":"editorials",
+                "categorydesc": "printed designs",
+                "subcategory":[
+                    {
+                    "subcategoryid":"3",
+                    "subcategorytitle":"illustrations",
+                    "subcategorydesc": "creative interpretation of world"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"12",
+        "imgtitle":"Grafikmagazine colors illustration all",
+        "imgalt": "Grafikmagazine colors illustration all",
+        "imgurl": "../../assets/images/editorials/grafikmagazine_illustration_red_all.jpg",
+        "slider":"1",
+        "group": [
+            {
+                "groupid": "3",
+                "groupname": "Grafik magazine",
+                "groupdesc": "Grafik is a creative platform that features the world’s leading graphic design and visual culture. Grafik launched as a bi-monthly magazine in 2003 and became one of the most popular design magazines in print."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "1",
+                "categoryname":"editorials",
+                "categorydesc": "printed designs",
+                "subcategory":[
+                    {
+                    "subcategoryid":"3",
+                    "subcategorytitle":"illustrations",
+                    "subcategorydesc": "creative interpretation of world"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"13",
+        "imgtitle":"Grafikmagazine illustration stack",
+        "imgalt": "Grafikmagazine illustration stack",
+        "imgurl": "../../assets/images/editorials/grafikmagazine_illustration_stack.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "3",
+                "groupname": "Grafik magazine",
+                "groupdesc": "Grafik is a creative platform that features the world’s leading graphic design and visual culture. Grafik launched as a bi-monthly magazine in 2003 and became one of the most popular design magazines in print."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "1",
+                "categoryname":"editorials",
+                "categorydesc": "printed designs",
+                "subcategory":[
+                    {
+                    "subcategoryid":"3",
+                    "subcategorytitle":"illustrations",
+                    "subcategorydesc": "creative interpretation of world"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"14",
+        "imgtitle":"Alvor logo",
+        "imgalt": "Alvor logo on dark background",
+        "imgurl": "../../assets/images/logo/alvor_logo_dark.png",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "6",
+                "groupname": "Alvor",
+                "groupdesc": "Operating for more than 20 years in the agriculture market and a reference in its region, Mafra (SC), Brazil, Alvor is a company that specialized in increasing soil productivity."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "2",
+                "categoryname":"logo",
+                "categorydesc": "recognizable signature designs",
+                "subcategory":[
+                    {
+                    "subcategoryid":"4",
+                    "subcategorytitle":"emblem",
+                    "subcategorydesc": "symbols and words styled in an icon"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"15",
+        "imgtitle":"Alvor logo full",
+        "imgalt": "Alvor logo on dark background",
+        "imgurl": "../../assets/images/logo/alvor_logo_full.png",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "6",
+                "groupname": "Alvor",
+                "groupdesc": "Operating for more than 20 years in the agriculture market and a reference in its region, Mafra (SC), Brazil, Alvor is a company that specialized in increasing soil productivity."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "2",
+                "categoryname":"logo",
+                "categorydesc": "recognizable signature designs",
+                "subcategory":[
+                    {
+                    "subcategoryid":"4",
+                    "subcategorytitle":"emblem",
+                    "subcategorydesc": "symbols and words styled in an icon"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"16",
+        "imgtitle":"Khoi logo",
+        "imgalt": "Khoi logo",
+        "imgurl": "../../assets/images/logo/khoi_logo.png",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "7",
+                "groupname": "Khoi design",
+                "groupdesc": "Personal brand identity of Khoi designs with naming, logo and visual concepts."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "2",
+                "categoryname":"logo",
+                "categorydesc": "recognizable signature designs",
+                "subcategory":[
+                    {
+                    "subcategoryid":"5",
+                    "subcategorytitle":"wordmark",
+                    "subcategorydesc": "logo focused on the name"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"17",
+        "imgtitle":"Origin logo",
+        "imgalt": "Origin logo",
+        "imgurl": "../../assets/images/logo/origin_logo.jpg",
+        "slider":"1",
+        "group": [
+            {
+                "groupid": "8",
+                "groupname": "Origin group",
+                "groupdesc": "Visual identity for the Origin group art concept for artists and arts lovers."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "2",
+                "categoryname":"logo",
+                "categorydesc": "recognizable signature designs",
+                "subcategory":[
+                    {
+                    "subcategoryid":"5",
+                    "subcategorytitle":"wordmark",
+                    "subcategorydesc": "logo focused on the name"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"18",
+        "imgtitle":"Owo logo",
+        "imgalt": "Owo logo",
+        "imgurl": "../../assets/images/logo/owo_logo.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "9",
+                "groupname": "Owo identity",
+                "groupdesc": "The OWO, formerly the Old War Office, is a new hospitality destination on London’s Whitehall comprising London’s first Raffles hotel."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "2",
+                "categoryname":"logo",
+                "categorydesc": "recognizable signature designs",
+                "subcategory":[
+                    {
+                    "subcategoryid":"5",
+                    "subcategorytitle":"wordmark",
+                    "subcategorydesc": "logo focused on the name"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"19",
+        "imgtitle":"Psy smile logo",
+        "imgalt": "Psy smile logo",
+        "imgurl": "../../assets/images/logo/psysmile_logo.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "10",
+                "groupname": "Psy Smile",
+                "groupdesc": "Band identity for the Psy Smile mindfulness app. Designed to show the life of creativity."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "2",
+                "categoryname":"logo",
+                "categorydesc": "recognizable signature designs",
+                "subcategory":[
+                    {
+                    "subcategoryid":"6",
+                    "subcategorytitle":"brandmark",
+                    "subcategorydesc": "symbols - graphic based logos"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"20",
+        "imgtitle":"Psy smile logo full",
+        "imgalt": "full version of Psy smile logo",
+        "imgurl": "../../assets/images/logo/psysmile_logo_full.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "10",
+                "groupname": "Psy Smile",
+                "groupdesc": "Band identity for the Psy Smile mindfulness app. Designed to show the life of creativity."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "2",
+                "categoryname":"logo",
+                "categorydesc": "recognizable signature designs",
+                "subcategory":[
+                    {
+                    "subcategoryid":"6",
+                    "subcategorytitle":"brandmark",
+                    "subcategorydesc": "symbols - graphic based logos"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"21",
+        "imgtitle":"Roacesar logo",
+        "imgalt": "Roacesar logo",
+        "imgurl": "../../assets/images/logo/roacesar_logo.png",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "11",
+                "groupname": "Roa Cesar logo",
+                "groupdesc": "Personal brand identity for Roa Cesar design and photography individual."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "2",
+                "categoryname":"logo",
+                "categorydesc": "recognizable signature designs",
+                "subcategory":[
+                    {
+                    "subcategoryid":"7",
+                    "subcategorytitle":"letterforms",
+                    "subcategorydesc": "logos based on single letter"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"22",
+        "imgtitle":"Roacesar logo multiple",
+        "imgalt": "Multiple styles of Roacesar logo",
+        "imgurl": "../../assets/images/logo/roacesar_logo_multiple.png",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "11",
+                "groupname": "Roa Cesar logo",
+                "groupdesc": "Personal brand identity for Roa Cesar design and photography individual."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "2",
+                "categoryname":"logo",
+                "categorydesc": "recognizable signature designs",
+                "subcategory":[
+                    {
+                    "subcategoryid":"7",
+                    "subcategorytitle":"letterforms",
+                    "subcategorydesc": "logos based on single letter"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"23",
+        "imgtitle":"Searchyfy logo",
+        "imgalt": "Searchyfy logo",
+        "imgurl": "../../assets/images/logo/searchyfy_logo.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "12",
+                "groupname": "Searchyfy logo",
+                "groupdesc": "Logo for a platform and app designed to help users easily search for anything on the web. "
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "2",
+                "categoryname":"logo",
+                "categorydesc": "recognizable signature designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"4",
+                        "subcategorytitle":"emblem",
+                        "subcategorydesc": "symbols and words styled in an icon"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"24",
+        "imgtitle":"Searchyfy logo big",
+        "imgalt": "big size Searchyfy logo",
+        "imgurl": "../../assets/images/logo/searchyfy_logo_big.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "12",
+                "groupname": "Searchyfy logo",
+                "groupdesc": "Logo for a platform and app designed to help users easily search for anything on the web. "
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "2",
+                "categoryname":"logo",
+                "categorydesc": "recognizable signature designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"4",
+                        "subcategorytitle":"emblem",
+                        "subcategorydesc": "symbols and words styled in an icon"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"26",
+        "imgtitle":"Gallery weekend bag",
+        "imgalt": "bag with printed Gallery weekend design",
+        "imgurl": "../../assets/images/extras/galerry_weekend_bag.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "13",
+                "groupname": "Gallery Weekend identity",
+                "groupdesc": "Gallery Weekend Berlin is a private initiative of Berlin galleries. This is the visual identity for 2019 Gallery Weekend."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "3",
+                "categoryname":"extras",
+                "categorydesc": "different applications of designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"9",
+                        "subcategorytitle":"bags",
+                        "subcategorydesc": "bags with applied design"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"27",
+        "imgtitle":"Khoi logo notebook",
+        "imgalt": "notebook with aplied Khoi design",
+        "imgurl": "../../assets/images/extras/khoi_extra.png",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "7",
+                "groupname": "Khoi design",
+                "groupdesc": "Personal brand identity of Khoi designs with naming, logo and visual concepts."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "3",
+                "categoryname":"extras",
+                "categorydesc": "different applications of designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"10",
+                        "subcategorytitle":"notebooks",
+                        "subcategorydesc": "notebooks with applied design"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"28",
+        "imgtitle":"Khoi logo extras",
+        "imgalt": "extras with aplied Khoi design",
+        "imgurl": "../../assets/images/extras/khoi_extras.png",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "7",
+                "groupname": "Khoi design",
+                "groupdesc": "Personal brand identity of Khoi designs with naming, logo and visual concepts."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "3",
+                "categoryname":"extras",
+                "categorydesc": "different applications of designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"11",
+                        "subcategorytitle":"multiple extras",
+                        "subcategorydesc": "multiple extras with applied design"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"29",
+        "imgtitle":"Nymble extras",
+        "imgalt": "extras with aplied Nymble design",
+        "imgurl": "../../assets/images/extras/nymble_extras.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "14",
+                "groupname": "Nymble project",
+                "groupdesc": "Design for hands-off approach to cooking with Nymble's Smart Kitchen Robot with full visual identity of the brand."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "3",
+                "categoryname":"extras",
+                "categorydesc": "different applications of designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"11",
+                        "subcategorytitle":"multiple extras",
+                        "subcategorydesc": "multiple extras with applied design"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"30",
+        "imgtitle":"Owo extras",
+        "imgalt": "extras with aplied Owo design",
+        "imgurl": "../../assets/images/extras/owo_extras.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "9",
+                "groupname": "Owo identity",
+                "groupdesc": "The OWO, formerly the Old War Office, is a new hospitality destination on London’s Whitehall comprising London’s first Raffles hotel."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "3",
+                "categoryname":"extras",
+                "categorydesc": "different applications of designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"10",
+                        "subcategorytitle":"notebooks",
+                        "subcategorydesc": "notebooks with applied design"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"31",
+        "imgtitle":"Psy smile extras",
+        "imgalt": "extras with aplied Psy smile design",
+        "imgurl": "../../assets/images/extras/psysmile_extras.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "10",
+                "groupname": "Psy Smile",
+                "groupdesc": "Band identity for the Psy Smile mindfulness app. Designed to show the life of creativity."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "3",
+                "categoryname":"extras",
+                "categorydesc": "different applications of designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"12",
+                        "subcategorytitle":"badges",
+                        "subcategorydesc": "badges with applied design"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"32",
+        "imgtitle":"Searchyfy smile extras",
+        "imgalt": "extras with aplied Searchyfy smile design",
+        "imgurl": "../../assets/images/extras/searchyfy_extras.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "12",
+                "groupname": "Searchyfy logo",
+                "groupdesc": "Logo for a platform and app designed to help users easily search for anything on the web. "
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "3",
+                "categoryname":"extras",
+                "categorydesc": "different applications of designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"11",
+                        "subcategorytitle":"multiple extras",
+                        "subcategorydesc": "multiple extras with applied design"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"33",
+        "imgtitle":"Caravelle beer",
+        "imgalt": "packaging design for Caravelle beer ",
+        "imgurl": "../../assets/images/packaging/caravelle_beer.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "15",
+                "groupname": "Caravelle beer packaging",
+                "groupdesc": "Packaging of beer can that included multiple different styles and color pallets to please the eye of the consumer."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "4",
+                "categoryname":"packaging",
+                "categorydesc": "different types of packaging designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"13",
+                        "subcategorytitle":"cans",
+                        "subcategorydesc": "different types and sizes of cans for packaging"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"34",
+        "imgtitle":"Caravelle beer cans",
+        "imgalt": "2 cans of packaging design for Caravelle beer",
+        "imgurl": "../../assets/images/packaging/caravelle_beer_front.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "15",
+                "groupname": "Caravelle beer packaging",
+                "groupdesc": "Packaging of beer can that included multiple different styles and color pallets to please the eye of the consumer."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "4",
+                "categoryname":"packaging",
+                "categorydesc": "different types of packaging designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"13",
+                        "subcategorytitle":"cans",
+                        "subcategorydesc": "different types and sizes of cans for packaging"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"35",
+        "imgtitle":"Caravelle beer same color cans",
+        "imgalt": "packaging design for Caravelle beer cans",
+        "imgurl": "../../assets/images/packaging/caravelle_beer_stacked.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "15",
+                "groupname": "Caravelle beer packaging",
+                "groupdesc": "Packaging of beer can that included multiple different styles and color pallets to please the eye of the consumer."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "4",
+                "categoryname":"packaging",
+                "categorydesc": "different types of packaging designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"13",
+                        "subcategorytitle":"cans",
+                        "subcategorydesc": "different types and sizes of cans for packaging"
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "id":"36",
+        "imgtitle":"Yuper packaging for all products",
+        "imgalt": "packaging for all Yuper products",
+        "imgurl": "../../assets/images/packaging/yuper_all.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "16",
+                "groupname": "Yuper packaging",
+                "groupdesc": "Packaging for different types of Yuper products that are meant for femail personal use."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "4",
+                "categoryname":"packaging",
+                "categorydesc": "different types of packaging designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"14",
+                        "subcategorytitle":"various packages",
+                        "subcategorydesc": "different types and sizes of packages"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"37",
+        "imgtitle":"Close up of Yuper package",
+        "imgalt": "packaging for single Yuper product",
+        "imgurl": "../../assets/images/packaging/yuper_package.jpg",
+        "slider":"1",
+        "group": [
+            {
+                "groupid": "16",
+                "groupname": "Yuper packaging",
+                "groupdesc": "Packaging for different types of Yuper products that are meant for femail personal use."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "4",
+                "categoryname":"packaging",
+                "categorydesc": "different types of packaging designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"15",
+                        "subcategorytitle":"boxes",
+                        "subcategorydesc": "different types and sizes of box packages"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"38",
+        "imgtitle":"Close up of inside of Yuper package",
+        "imgalt": "inside packaging for single Yuper product",
+        "imgurl": "../../assets/images/packaging/yuper_package_inside.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "16",
+                "groupname": "Yuper packaging",
+                "groupdesc": "Packaging for different types of Yuper products that are meant for femail personal use."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "4",
+                "categoryname":"packaging",
+                "categorydesc": "different types of packaging designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"15",
+                        "subcategorytitle":"boxes",
+                        "subcategorydesc": "different types and sizes of box packages"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"39",
+        "imgtitle":"Treat Fruity",
+        "imgalt": "packaging for aLL Treat Fruity products",
+        "imgurl": "../../assets/images/packaging/treat_fruity_all.png",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "17",
+                "groupname": "Treat Fruity packaging",
+                "groupdesc": "Packaging for different types of Treat Fruity products with different flavors and colors to complement them."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "4",
+                "categoryname":"packaging",
+                "categorydesc": "different types of packaging designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"15",
+                        "subcategorytitle":"boxes",
+                        "subcategorydesc": "different types and sizes of box packages"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"40",
+        "imgtitle":"Treat Fruity angled",
+        "imgalt": "packaging for aLL Treat Fruity products",
+        "imgurl": "../../assets/images/packaging/treat_fruity_four.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "17",
+                "groupname": "Treat Fruity packaging",
+                "groupdesc": "Packaging for different types of Treat Fruity products with different flavors and colors to complement them."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "4",
+                "categoryname":"packaging",
+                "categorydesc": "different types of packaging designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"15",
+                        "subcategorytitle":"boxes",
+                        "subcategorydesc": "different types and sizes of box packages"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"41",
+        "imgtitle":"Treat Fruity 2 products",
+        "imgalt": "packaging for two Treat Fruity products",
+        "imgurl": "../../assets/images/packaging/treat_fruity_two.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "17",
+                "groupname": "Treat Fruity packaging",
+                "groupdesc": "Packaging for different types of Treat Fruity products with different flavors and colors to complement them."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "4",
+                "categoryname":"packaging",
+                "categorydesc": "different types of packaging designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"15",
+                        "subcategorytitle":"boxes",
+                        "subcategorydesc": "different types and sizes of box packages"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"42",
+        "imgtitle":"Pineaple Box",
+        "imgalt": "packaging for two Pineaple Boxes",
+        "imgurl": "../../assets/images/packaging/pinaple_box.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "18",
+                "groupname": "Pineaple Box packaging",
+                "groupdesc": "Packaging for Pineaple boxes for Pineaple cookie products that reflect brand vision and taste."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "4",
+                "categoryname":"packaging",
+                "categorydesc": "different types of packaging designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"15",
+                        "subcategorytitle":"boxes",
+                        "subcategorydesc": "different types and sizes of box packages"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"43",
+        "imgtitle":"Pineaple Box",
+        "imgalt": "close up of Pineaple box packaging",
+        "imgurl": "../../assets/images/packaging/pinaple_box_closeup.jpg",
+        "slider":"1",
+        "group": [
+            {
+                "groupid": "18",
+                "groupname": "Pineaple Box packaging",
+                "groupdesc": "Packaging for Pineaple boxes for Pineaple cookie products that reflect brand vision and taste."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "4",
+                "categoryname":"packaging",
+                "categorydesc": "different types of packaging designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"15",
+                        "subcategorytitle":"boxes",
+                        "subcategorydesc": "different types and sizes of box packages"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"44",
+        "imgtitle":"inside of Pineaple Box",
+        "imgalt": "inside of Pineaple box packaging",
+        "imgurl": "../../assets/images/packaging/pinaple_box_inside.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "18",
+                "groupname": "Pineaple Box packaging",
+                "groupdesc": "Packaging for Pineaple boxes for Pineaple cookie products that reflect brand vision and taste."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "4",
+                "categoryname":"packaging",
+                "categorydesc": "different types of packaging designs",
+                "subcategory":[
+                    {
+                        "subcategoryid":"15",
+                        "subcategorytitle":"boxes",
+                        "subcategorydesc": "different types and sizes of box packages"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"45",
+        "imgtitle":"Alvor visitcard",
+        "imgalt": "visitcard design for Alvor",
+        "imgurl": "../../assets/images/visuals/alvor_visitcard.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "6",
+                "groupname": "Alvor",
+                "groupdesc": "Operating for more than 20 years in the agriculture market and a reference in its region, Mafra (SC), Brazil, Alvor is a company that specialized in increasing soil productivity."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "5",
+                "categoryname":"visuals",
+                "categorydesc": "different types of printed visuals",
+                "subcategory":[
+                    {
+                        "subcategoryid":"16",
+                        "subcategorytitle":"visitcards",
+                        "subcategorydesc": "different types visitcard designs"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"46",
+        "imgtitle":"Origin ticet design",
+        "imgalt": "ticket designt for Origin",
+        "imgurl": "../../assets/images/visuals/origin_ticketd.jpg",
+        "slider":"1",
+        "group": [
+            {
+                "groupid": "8",
+                "groupname": "Origin group",
+                "groupdesc": "Visual identity for the Origin group art concept for artists and arts lovers."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "5",
+                "categoryname":"visuals",
+                "categorydesc": "different types of printed visuals",
+                "subcategory":[
+                    {
+                        "subcategoryid":"17",
+                        "subcategorytitle":"ticets",
+                        "subcategorydesc": "different types ticket designs"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"47",
+        "imgtitle":"Roacesar visitcard",
+        "imgalt": "Roacesar visitcard design",
+        "imgurl": "../../assets/images/visuals/roacesar_visitcards.png",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "11",
+                "groupname": "Roa Cesar logo",
+                "groupdesc": "Personal brand identity for Roa Cesar design and photography individual."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "5",
+                "categoryname":"visuals",
+                "categorydesc": "different types of printed visuals",
+                "subcategory":[
+                    {
+                        "subcategoryid":"16",
+                        "subcategorytitle":"visitcards",
+                        "subcategorydesc": "different types visitcard designs"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"48",
+        "imgtitle":"Teatre flyer",
+        "imgalt": "flyer for Teatre",
+        "imgurl": "../../assets/images/visuals/teatre_flyer.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "19",
+                "groupname": "Teatre visual identity",
+                "groupdesc": "Visual identity for Teatre that included different types of printed materials for brand advertisement."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "5",
+                "categoryname":"visuals",
+                "categorydesc": "different types of printed visuals",
+                "subcategory":[
+                    {
+                        "subcategoryid":"18",
+                        "subcategorytitle":"flyers",
+                        "subcategorydesc": "different types of flyer designs"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"49",
+        "imgtitle":"Teatre poster",
+        "imgalt": "poster for Teatre",
+        "imgurl": "../../assets/images/visuals/teatre_poster.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "19",
+                "groupname": "Teatre visual identity",
+                "groupdesc": "Visual identity for Teatre that included different types of printed materials for brand advertisement."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "5",
+                "categoryname":"visuals",
+                "categorydesc": "different types of printed visuals",
+                "subcategory":[
+                    {
+                        "subcategoryid":"19",
+                        "subcategorytitle":"posters",
+                        "subcategorydesc": "different types of poster designs"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"50",
+        "imgtitle":"Teatre poster and flyer",
+        "imgalt": "poster and flyer for Teatre",
+        "imgurl": "../../assets/images/visuals/teatre_poster_flyer.jpg",
+        "slider":"0",
+        "group": [
+            {
+                "groupid": "19",
+                "groupname": "Teatre visual identity",
+                "groupdesc": "Visual identity for Teatre that included different types of printed materials for brand advertisement."
+            }
+        ],
+        "category":[
+            {
+                "categoryid": "5",
+                "categoryname":"visuals",
+                "categorydesc": "different types of printed visuals",
+                "subcategory":[
+                    {
+                        "subcategoryid":"18",
+                        "subcategorytitle":"flyers",
+                        "subcategorydesc": "different types of flyer designs"
+                    }
+                ]
+            }
+        ]
+    }
+
+    
+
+
+
+]
