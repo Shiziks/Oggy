@@ -21,29 +21,11 @@ const routes: Routes = [
     redirectTo: "",
     pathMatch: "full"
   },
-  // {
-  //   path:"introduction",
-  //   component:IntroductionComponent
-
-  // },
   {
     path: "portfolio",
     component:PortfolioComponent
 
   },
-  // {
-  //   path: "expertise",
-  //   component: ExpertiseComponent
-  // },
-  // {
-  //   path: "inquiry",
-  //   component: InquiryComponent
-  // },
-  // {
-  //   path: "contact",
-  //   redirectTo: "/home",
-  //   pathMatch: "full",
-  // },
   {
     path: "**",
     component: NotFoundComponent
