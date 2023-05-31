@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+/* 
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+/* @import "@angular/material/prebuilt-themes/pink-bluegrey.css"; */
+
+html {
+    scroll-behavior: smooth!important;
+}
+
+
+.mat-input-element.mat-form-field-autofill-control.form-select.ng-pristine.ng-invalid.cdk-text-field-autofill-monitored.ng-touched{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+::ng-deep .ng-focused{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.form-check-input:checked {
+    background-color: #F03A47;
+    border-color: #F03A47;
+    border-top-color: #F03A47;
+    border-right-color: #F03A47;
+    border-bottom-color: #F03A47;
+    border-left-color: #F03A47;
+}
+
+.myCustomModalClass .modal-dialog {
+    max-width: 850px;
+    border:none!important;
+}
+.modal-content{
+    border:none !important;
+}

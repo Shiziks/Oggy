@@ -1,0 +1,128 @@
+/* @import '@angular/material/prebuilt-themes/indigo-pink.css'; */
+
+.formtitle h2 {
+    color: #F03A47;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+small.text-muted {
+    color: #A3A3A3 !important;
+    font-size: 13px !important;
+}
+
+form {
+    color: unset !important;
+}
+
+.formcontainer {
+    margin: 0px !important;
+    color: gray !important;
+
+}
+
+/* mat-form-field.mat-form-field input {
+    height:38px;
+    width:336px;
+    vertical-align: auto;
+    background-color: lightgray;
+    
+} */
+
+mat-form-field.mat-form-field-label {
+    margin-top: 45%;
+}
+
+mat-form-field.mat-form-field {
+    width: 90%;
+    background-color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-weight: 300;
+    border: 1px solid gray;
+    color: gray !important;
+    outline:none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent!important;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+mat-form-field.mat-form-field.selectFormField {
+    width: 100%;
+    color: gray !important;
+}
+
+mat-form-field.mat-form-field.selectFormField div.mat-form-field-wrapper {
+    padding-bottom: 0px;
+}
+
+
+option.firstOption {
+    color: gray !important;
+}
+
+mat-label {
+    color: gray !important;
+}
+
+div.message{
+    color: #F03A47;
+    font-size:13px;
+}
+
+.row.gx-4.gy-2.mt-4.last{
+    width: 99%;
+    margin: 0px auto;
+}
+
+/* mat-form-field.noBorder{
+    border:0px;
+} */
+
+
+
+.errorText {
+    margin-left: 5px;
+
+}
+
+/* .mat-form-field.mat-focused{
+    color:lightPink!important;
+    caret-color: lightpink!important;
+} */
+
+
+
+
+mat-error.error {
+    color: lightsalmon;
+    font-size: 10px;
+}
+
+
+.submitbutton:disabled {
+    width: 100%;
+    border-radius: 5px;
+    color: #424242;
+    background-color: #C9C9C9;
+    box-shadow: rgba(240, 58, 71, 0.9) 4px 4px;
+    border: 0.2px solid white;
+    font-weight: 500;
+}
+
+.submitbutton{
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    background-color: #424242;
+    box-shadow: rgba(240, 58, 71, 0.9) 4px 4px;
+    border: 0.2px solid white;
+    font-weight: 500;
+}

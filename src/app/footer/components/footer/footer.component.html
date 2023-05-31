@@ -1,0 +1,87 @@
+<mat-divider></mat-divider>
+<div class="container footer">
+    <mat-card class="mt-5">
+    <div class="row mt-2">
+        <div class="col-2 image">
+            <img src="../../../../assets/images/MyLogo/logo_white.png" alt="Logo for Oggy design in white color"/>
+        </div>
+        <div class="col-3 mt-3 gx-5">
+            <div class="title">
+                <h3>Quick Links:</h3>
+            </div>
+                <ul>
+                    <li> <a matRipple 
+                        [matRippleRadius]="radius" 
+                        [matRippleCentered]="centered" 
+                        (click)="scrollToSection('top')">Top of the Page</a></li>
+                    <ng-container *ngFor="let item of menuList|slice:0:itemsLength-1">
+                        <li><a matRipple 
+                            [matRippleRadius]="radius" 
+                            [matRippleCentered]="centered" 
+                            routerLink="/{{item.path}}">{{ item.title | titlecase }}</a></li>
+                    </ng-container>
+                </ul>
+        </div>
+        <div class="col-3 mt-3 gx-5">
+            <div class="text-center"><h3>Get in touch:</h3></div>
+            <div class="contactdetails">
+                <h4>Oggy Design </h4>
+                <div class="address">
+                    <small> Some Street Address 534</small><br/>
+                    <small>11111 Some City Name</small><br/>
+                    <small>Country </small>
+                </div>
+                
+                <div class="phone"><small class="align-middle"><mat-icon aria-hidden="false" aria-label="Example home icon">smartphone</mat-icon></small> +945 7879 9304 </div>
+                <div class="email"><small class="align-middle"><mat-icon aria-hidden="false" aria-label="Example home icon">email</mat-icon></small>oggy.design@email.com</div>
+            </div>
+
+
+
+        </div>
+        <div class="col-4 mt-3 gx-5">
+            <div class="text-center"><h3>Socila Meadia:</h3></div>
+            <div class="smlist text-center">
+                <ul>
+                    <li><a href=""><img src="../../../../assets/images/icons/white_instagram.png" alt="icon for instagram"></a></li>
+                    <li><a href=""><img src="../../../../assets/images/icons/twitter_white.png" alt="icon for instagram"></a></li>
+                    <li><a href=""><img src="../../../../assets/images/icons/facebook_white.png" alt="icon for instagram"></a></li>
+                    <li><a href=""><img src="../../../../assets/images/icons/linkedin_white.png" alt="icon for instagram"></a></li>
+                </ul>
+            </div>
+            <div class="text-center newsletter"><h3>Newsletter:</h3></div>
+            <div class="emailform">
+                <form [formGroup]="newsLetterForm">
+                    <div class="row gy-2 mt-2 ">
+                        <div class="col-sm-6 col-12 gx-4">
+                            
+                            <mat-form-field>
+                                <input matInput formControlName='emailTS'/>
+                                <mat-label class="mt-2"> Your Email</mat-label>
+                                <mat-error class="errorText">
+                                    <ng-container *ngIf="newsLetterForm.get('emailTS')?.hasError('required')">
+                                        Email is required.
+                                    </ng-container>
+                                    <ng-container *ngIf="newsLetterForm.get('emailTS')?.hasError('email')">
+                                        Email format is not good.
+                                    </ng-container>
+                               </mat-error>
+                            </mat-form-field>
+
+                        
+                        </div>
+                        <div class="col-sm-6 text-end button" >
+                            <button mat-stroked-button class="submitbutton" (click)="subscribed()"> Submit </button>
+                        
+                        </div>
+                        <ng-container *ngIf="subscribedTrue==true && newsLetterForm.valid">
+                            <small class="formValid">Thank you for subscribing!</small>
+                        </ng-container>
+                    </div>
+                
+                </form>
+            </div>
+        </div>
+    </div>
+</mat-card>
+</div>

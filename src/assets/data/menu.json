@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "title": "Home",
+        "path": "home"
+    },
+    {
+        "id": "2",
+        "title": "this is me",
+        "path": "introduction"
+    },
+    {
+        "id": "3",
+        "title": "my portfolio",
+        "path": "portfolio"
+    },
+    {
+        "id": "4",
+        "title": "my expertise",
+        "path": "expertise"
+    },
+    {
+        "id": "5",
+        "title": "design inquiry",
+        "path": "inquiry"
+    },
+    {
+        "id": "6",
+        "title": "get in touch",
+        "path": "contact"
+    }
+]

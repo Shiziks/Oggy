@@ -1,0 +1,55 @@
+.modal-dialog{
+    position: fixed;
+    margin:0px auto;
+    border-radius: 1px;  
+}
+
+.modal-content{
+    max-height:550px;
+    overflow-y: auto;
+    top:0;
+    border-radius: 10px;
+    border:none!important;
+    
+}
+.modal-header{
+    max-height: 60px;
+    background-color: #424242;
+    border:1px solid #424242;
+   
+}
+
+.modal-header h4{
+    margin-bottom:5px;
+    margin-top:5px;
+    color: white!important;
+    font-weight: 500 !important;
+    font-size: 16px!important;
+}
+
+
+
+.btn.btn-secondary{
+    background-color: #424242;
+    box-shadow: rgba(240, 58, 71, 0.9) 4px 4px;
+    border:0.2px solid white;
+    cursor:pointer;
+}
+
+.btn.btn-secondary:hover{
+    color:#F7B513
+}
+
+
+
+.col img{
+    align-items: center;
+    max-width:450px;
+    margin:5px auto;
+}
+
+
+
+
+
+

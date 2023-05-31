@@ -1,0 +1,35 @@
+<div class="container introduction mt-5 mb-5" id="introduction">
+    <div class="row">
+        <div class="col-4">
+            <div class="card">
+                <div class="card-body">
+                  <h1 class="card-title">Oggy</h1>
+                  <h4 class="card-subtitle mb-2 text-muted">is my name</h4>
+                  <p class="card-text">Hello and welcome to Oggy page. Oggy is a freelance graphic designer with satisfied clients worldwide. Oggy has been designing professionally for over 15 years, and is very keen on personal service. I would describe Oggy as a spiritual fast learning generalist with a passion for remarkable design.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4 text-center">
+            <div class="meimage rectangle">
+                <img src="./../assets/images/personal/me1.webp" class="rounded" alt="Picture of a man smiling">
+            </div>   
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <div class="card-body text-end">
+                  <h1 class="card-title">That is me!</h1>
+                  <h4 class="card-subtitle mb-2 text-muted">I design for you.</h4>
+                  <p class="card-text mb-4">It doesn’t take a genius to know that people primarily respond to visual stimuli. Our sight, after all, has to be one of our most developed and acute senses. That is why all products and services must take into consideration the aesthetics of their brand. I  can create an engaging design template that goes perfectly with your creative vision. This how I create a look that is not only enticing but is also representative of your brand.</p>
+                  <button class="btn btn-secondary" (click)="loadPortfolio()">{{buttonText}}</button>
+                  <!-- mat-raised-button  -->
+                   
+                  
+                  
+                </div>
+              </div>
+        </div>
+    </div>
+    <ng-template [ngIf]="loadPortfolioTrue">
+      <app-portfolio></app-portfolio>
+    </ng-template>
+</div>

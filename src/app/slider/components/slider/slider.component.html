@@ -1,0 +1,55 @@
+
+<div class="container-slider">
+    <div class="row m-0">
+    <div class="col-12 p-0">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <ng-container *ngFor="let data of allImageData |sliderFilter|slice:0:1">
+            <div class="carousel-item active">
+              <img src="{{data.imgurl}}" class="d-block w-100" alt="{{data.imgalt}}">
+            </div>
+          </ng-container>
+          <ng-container *ngFor="let data of allImageData |sliderFilter|slice:1">
+            <div class="carousel-item">
+              <img src="{{data.imgurl}}" class="d-block w-100" alt="{{data.imgalt}}">
+            </div>
+          </ng-container>
+
+        
+            <!-- <ng-container *ngIf="data.slider==true">
+              <div class="carousel-item active">
+                <img src="{{data.imgurl}}" class="d-block w-100" alt="{{data.imgalt}}">
+              </div>
+            </ng-container>
+          </ng-container>
+            <ng-container *ngFor="let data of allImageData |slice:10">
+              <ng-container *ngIf="data.slider==true">
+                <div class="carousel-item">
+                  <img src="{{data.imgurl}}" class="d-block w-100" alt="{{data.imgalt}}">
+                </div>
+              </ng-container> -->
+
+         
+          <!-- <div class="carousel-item active">
+            <img src="https://picsum.photos/id/1048/1000/500" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/id/1031/1000/500" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/id/1081/1000/500" class="d-block w-100" alt="...">
+          </div> -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+</div>
+
+</div>

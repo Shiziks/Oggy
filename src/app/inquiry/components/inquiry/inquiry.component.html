@@ -1,0 +1,25 @@
+<div class="container inquiry mt-5 mb-5" id="inquiry">
+    
+    <div class="row">
+        <ng-container *ngIf="formtrue; else elseBlock">
+            <div class="col">
+                <div class="card text-center">
+                    
+                    <div class="card-body">
+                    <h1 class="card-title mb-5">Design Inquiry</h1>
+                    <p class="card-text">If you want me to design for you, please do take a minute to submit your inquiry.</p>
+                    </div>
+                </div>
+    <!-- Na ovom mestu ce se na klik dinamicki ucitavati forma -->
+            </div>
+        </ng-container>
+        <ng-template #elseBlock> 
+            <app-form></app-form>
+        </ng-template>
+        <div class="row mt-5 text-center">
+            <div class="col-4"></div>
+        <div class="col-4"><button class="btn btn-secondary" (click)="loadForm()"> {{buttonText}}</button></div>
+        <div class="col-4"></div>
+        </div>
+    </div>
+</div>

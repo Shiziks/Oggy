@@ -1,0 +1,59 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+form{
+    color: white;
+}
+
+.formcontainer{
+    margin:0px !important;
+
+}
+
+/* mat-form-field.mat-form-field input {
+    height:38px;
+    width:336px;
+    vertical-align: auto;
+    background-color: lightgray;
+    
+} */
+
+mat-form-field.mat-form-field-label{
+    margin-top:45%;
+}
+
+mat-form-field.mat-form-field{
+    width:80%;
+    background-color: #424242;
+    padding:7px 15px;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
+.mat-input-element{
+    background-color: #424242;
+}
+
+.errorText{
+    margin-left:5px;
+    
+}
+
+/* .mat-form-field.mat-focused{
+    color:lightPink!important;
+    caret-color: lightpink!important;
+} */
+
+
+
+
+mat-error.error{
+    color:lightsalmon;
+    font-size: 10px;
+} 
+
+
+.submitbutton{
+    width: 100%;
+}
+
+

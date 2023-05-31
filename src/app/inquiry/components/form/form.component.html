@@ -1,0 +1,94 @@
+<div class="formtitle mt-4">
+    <small class="text-muted"> Interested in my specialties and wont to collaborate on a project</small>
+    <h2>Plese fill out this inquiry form:</h2>
+    
+</div>
+<div class="formcontainer">
+    <form [formGroup]="formAll">
+
+        <div class="row gx-4 gy-2 mt-4 mb-4">
+            <div class="col-sm-6 col-12">
+                
+                <mat-form-field>
+                    <input matInput formControlName='nameTS'/>
+                    <mat-label class="mt-2"> Your Name</mat-label>
+                    <mat-error class="errorText">
+                        <ng-container *ngIf="formAll.get('nameTS')?.hasError('required')">
+                            Name is required.
+                        </ng-container>
+                        <ng-container *ngIf="formAll.get('nameTS')?.hasError('minlength')">
+                            Name must be at least 3 characters long.
+                        </ng-container>
+                        <ng-container *ngIf="formAll.get('nameTS')?.hasError('pattern')">
+                            Name must start with capital letter and please fill only one name.
+                        </ng-container>
+
+                   </mat-error>
+                </mat-form-field>
+            
+            </div>
+
+            <div class="col-sm-6 col-12 text-end">
+
+                <mat-form-field>
+                    <input matInput formControlName="emailTS"/>
+                    <mat-label class="mt-2"> Your Email</mat-label>
+                    <mat-error class="errorText">
+                        <ng-container *ngIf="formAll.get('emailTS')?.hasError('required')">
+                            Emai is required.
+                        </ng-container>
+                        <ng-container *ngIf="formAll.get('emailTS')?.hasError('email')">
+                            Format of email is not good.
+                        </ng-container>
+                    </mat-error>                   
+                </mat-form-field>
+
+            </div>
+        </div>
+
+        <div class="row gx-4 gy-2 mt-1">
+
+            <div class="col text-center align-middle">
+
+                <mat-form-field class="selectFormField">
+                    <mat-label>Select One Expertise</mat-label>
+                    <select matNativeControl class="form-select" aria-label="Default select example" (change)="expertiseChoosen($event)" formControlName="selectTS">
+                        <!-- <option  selected value="0" class="firstOption">Select One Expertise</option> -->
+                        <ng-container *ngFor="let item of inquiryList">
+                            <option [ngValue]="item.id">{{item.fieldname | titlecase}}</option>
+                        </ng-container>
+                    </select>
+                    <mat-error class="errorText">
+                        <ng-container *ngIf="formAll.get('selectTS')?.hasError('required')">
+                            You must select one expertise.
+                        </ng-container>
+                    </mat-error>
+                </mat-form-field>
+    
+            </div>
+        </div>
+
+        <div class="row gx-4 gy-2 mt-4 last">
+            <ng-container *ngIf="selectedIndexNumber!=0">
+                <div class="col-4 justify-content-center" *ngFor="let item of selectedIndexSections">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="{{item.id}}" [value]="item.sectionname">
+                        <label class="form-check-label" for="inlineCheckbox1">{{item.sectionname | titlecase }}</label>
+                      </div>
+                </div>
+            </ng-container>
+        </div>
+        <div class="row g-4 mt-2 text-end">
+            <div class="col-sm-8"></div>
+            <div class="col-sm-4">
+                <button class="btn btn-light submitbutton" (click)="submitThis()" [disabled]="this.formAll.invalid"> Submit </button>
+
+            </div>
+        </div>
+        <ng-container *ngIf="formValid==true">
+            <div class="message mt-3 text-end me-1">* Thank you for submiting your inquiry.</div>
+        </ng-container>
+
+    </form>
+
+</div>

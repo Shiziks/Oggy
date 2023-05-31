@@ -1,0 +1,31 @@
+  
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <ng-container *ngFor="let images of filteredImages |slice:0:1">
+                    <h4 class="modal-title">{{images.group[0].groupname}} </h4>
+                </ng-container>
+            </div>
+            <div class="modal-body text-center">
+                <div class="row">
+                    <div class="col">
+                        <ng-container *ngFor="let images of filteredImages |slice:0:1">
+                        <p>{{images.group[0].groupdesc}}</p>
+                        </ng-container>
+                </div>
+            </div>
+        
+            <ng-container *ngFor="let images of filteredImages">
+                <div class="row">
+                    <div class="col">
+                        <img src="../../{{images.imgurl}}" alt="{{images.imgalt}}"/>
+                    </div>
+                </div>
+            </ng-container>
+        
+      </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary mb-2 me-3" (click)="activeModal.close('Close click')">Close</button>
+        </div>
+    </div>
+    </div>

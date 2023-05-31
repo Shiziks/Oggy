@@ -1,0 +1,80 @@
+<div class="portfolio container text-center mb-5 #start" id="portfolio">
+    <div class="row mt-5 mb-4">
+        <div class="col text-center">
+        <h1 class="title">My Work</h1>
+        <span>You can check my latest, as well as, my most fevorite designs here:</span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="title text-start ms-2 mt-4">
+            <h2 class="mb-0">{{title}}</h2>
+        </div>
+        <ng-container *ngIf="someId==0; else elseFilter">
+            <ng-container *ngIf="showMore; else elseBlock">
+                <ng-container *ngFor="let data of allImagesData |slice:0:12" >
+                    <div class="col-lg-3 col-md-4 col-xs-6" (click)="open(data.group[0].groupid)">
+                        <div class="portfolio-item">
+                            
+                            <img src="{{data.imgurl}}" class="img-res" alt="{{data.imgalt}}" id="{{data.id}}">
+                            <h4 class="portfolio-item-title justify-content-center">{{data.imgtitle}} - View More</h4>
+                            
+                            
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                </ng-container>
+            </ng-container>
+            <ng-template #elseBlock>
+                <ng-container *ngFor="let data of allImagesData" >
+                    <div class="col-lg-3 col-md-4 col-xs-6" (click)="open(data.group[0].groupid)">
+                        <div class="portfolio-item">
+                        
+                            <img src="{{data.imgurl}}" class="img-res" alt="{{data.imgalt}}" id="{{data.id}}" >
+                            <h4 class="portfolio-item-title justify-content-center">{{data.imgtitle}} - View More</h4>
+                       
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                </ng-container>
+            </ng-template>
+        </ng-container>
+        <ng-template #elseFilter>
+            <ng-container *ngFor="let filterData of imagesFiltered" >
+                <div class="col-lg-3 col-md-4 col-xs-6"  (click)="open(filterData.group[0].groupid)">
+                    <div class="portfolio-item">
+                        
+                        <img src="{{filterData.imgurl}}" class="img-res" alt="{{filterData.imgalt}}" id="{{filterData.id}}">
+                        <h4 class="portfolio-item-title justify-content-center">{{filterData.imgtitle}} - View More </h4>
+                   
+                        
+                    </div><!-- /.portfolio-item -->
+                </div>
+            </ng-container>
+
+        </ng-template>
+            
+        <div class="row mt-5 button">
+            <div class="col text-start my-auto">
+                <ul>
+                    <li class="first"> Apply Filters: </li>
+                    <li (click)="filterImage(2)">Logos</li>
+                    <li (click)="filterImage(1)">Editorials</li>
+                    <li (click)="filterImage(3)">Extras</li>
+                    <li (click)="filterImage(4)">Packaging</li>
+                    <li (click)="filterImage(5)">Visuals</li>
+                    
+                </ul>
+            </div>
+          
+        
+            <div class="col-4 text-end">
+                <button class="btn btn-secondary" (click)="showMoreImages()">{{buttonText1}}</button>
+            </div>
+            
+        </div>
+          
+        
+       
+    </div>
+    
+    
+</div>

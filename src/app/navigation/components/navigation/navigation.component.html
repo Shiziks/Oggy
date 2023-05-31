@@ -1,0 +1,60 @@
+<div class="menu-container" [ngClass]="{'bghide':showMenu, 'bgshow':!showMenu}">
+
+    <div class="menurow row">
+        <div class="menuleft col-8">
+            <div class="container menu-left">
+                <div id="logo">
+                    <img src="../../assets/images/MyLogo/logo_white.png" alt="Oggy design logo in gray color">
+                </div>
+                <ul [ngClass]="{'hide':showMenu,'show':!showMenu}">
+                    <ng-container *ngFor="let item of menuList">
+                        <ng-container *ngIf="!hide; else showHome">
+                            <li><a matRipple 
+                                [matRippleRadius]="radius" 
+                                [matRippleCentered]="centered" 
+                                (click)="scrollToSection(item.path)"
+                                >{{item.title | titlecase }}</a></li>
+                        </ng-container>
+                        <ng-template #showHome>
+                            <ng-container *ngIf="item.path==='home'">
+                                <li><a matRipple 
+                                    [matRippleRadius]="radius" 
+                                    [matRippleCentered]="centered" 
+                                    (click)="scrollToSection(item.path)"
+                                    >{{item.title | titlecase }}</a></li>
+                            </ng-container>
+                        </ng-template>
+                        <!-- <li><a matRipple 
+                            [matRippleRadius]="radius" 
+                            [matRippleCentered]="centered" 
+                            (click)="scrollToSection(item.path)"
+                            >{{item.title | titlecase }}</a></li> -->
+                    </ng-container>
+                    <!-- <ng-container *ngFor="let item of menuList |slice:menuItemsLength-1">
+                        <li><a matRipple 
+                            [matRippleRadius]="radius" 
+                            [matRippleCentered]="centered" 
+                            (click)="scrollToSection(item.path)">{{ item.title | titlecase }}</a></li>
+                    </ng-container> -->
+
+                </ul>
+            </div>
+        </div>
+        
+        <div class="menuright col-4 text-end" *ngIf="showMenu==true; else elseBlock">
+            <small>Menu</small>    
+            <mat-icon aria-hidden="false" aria-label="expand_more" class="more" (click)="onMouseClick()">expand_more</mat-icon>
+                </div>
+
+            <ng-template #elseBlock>
+                <div class="menuright col-4 text-end">   
+                    <mat-icon aria-hidden="false" aria-label="expand_more" class="less" (click)="onMouseClick()">expand_less</mat-icon>
+                </div>
+            </ng-template>
+       
+        
+        
+        
+
+    </div>
+</div>

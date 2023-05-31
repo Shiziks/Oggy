@@ -1,0 +1,27 @@
+.card {
+    border: 0px;
+   
+}
+.card-title{
+    font-size: 30px !important;
+    font-weight: 600;
+    color: #F03A47;
+    text-transform: uppercase;
+
+}
+
+.card-text {
+    font-size: 16px;
+    color: #424242;
+}
+
+.btn.btn-secondary{
+    background-color: #424242;
+    box-shadow: rgba(240, 58, 71, 0.9) 4px 4px;
+    border:0.2px solid white;
+    cursor:pointer;
+}
+
+.btn.btn-secondary:hover{
+    color:#F7B513
+}
