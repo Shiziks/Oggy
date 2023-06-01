@@ -12,13 +12,13 @@
 }
 .menurow.row{
     margin:0px;
-    width:100vw;
+    width:100%;
 
 }
 .bgshow{
     background-color: #424242;
     color:white;
-    width: 100vw;
+    width: 100%;
 
 }
 .bghide{

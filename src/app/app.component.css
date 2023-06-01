@@ -6,24 +6,31 @@
   color:#F03A47;
   font-weight: 700;
   text-transform: uppercase;
+  margin:0px;
+  padding:0px;
 }
 
 .to-top {
     bottom: 0;
     cursor: pointer;
-    margin: 0 8px 12px 0;
+    /* margin: 0 8px 12px 0; */
     position: fixed;
     right: 0;
     opacity: 0;
+    z-index:10000;
+    margin:0px;
+    padding:0px;
   }
   
   .show-scrollTop {
     opacity: 1 !important;
     transition: all 0.2s ease-in-out;
     position:fixed;
-    margin-right: 25px;
-    margin-bottom: 25px;;
+    bottom:20px;
+    right:15px;
     width: auto;
     height:auto;
+    margin:0px;
+    padding:0px;
   }
 
