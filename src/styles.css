@@ -4,9 +4,39 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
 /* @import "@angular/material/prebuilt-themes/pink-bluegrey.css"; */
 
+@font-face {
+    font-family: 'nutinosans-regular';
+    src: url('./assets/fonts/nutino-regular.ttf');
+}
+@font-face {
+    font-family: 'nutinosans-bold';
+    src: url('./assets/fonts/nutino-bold.ttf');
+}
+@font-face {
+    font-family: 'nutinosans-medium';
+    src: url('./assets/fonts/nutino-medium.ttf');
+}
+@font-face {
+    font-family: 'nutinosans-light';
+    src: url('./assets/fonts/nutino-light.ttf');
+}
+@font-face {
+    font-family: 'nutinosans-extralight';
+    src: url('./assets/fonts/nutino-extralight.ttf');
+}
+@font-face {
+    font-family: 'nutinosans-extrabold';
+    src: url('./assets/fonts/nutino-extrabold.ttf');
+}
+
 html {
     scroll-behavior: smooth!important;
 }
+*{
+    font-family: 'nutinosans-regular';
+    letter-spacing: -0.5px;
+}
+
 
 
 .mat-input-element.mat-form-field-autofill-control.form-select.ng-pristine.ng-invalid.cdk-text-field-autofill-monitored.ng-touched{

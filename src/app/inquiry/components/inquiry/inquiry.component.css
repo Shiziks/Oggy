@@ -1,8 +1,11 @@
+
 .card {
     border: 0px;
    
 }
 .card-title{
+    font-family: 'nutinosans-extrabold';
+    font-weight: 800;
     font-size: 30px !important;
     font-weight: 600;
     color: #F03A47;
@@ -13,6 +16,9 @@
 .card-text {
     font-size: 16px;
     color: #424242;
+    width: 65%;
+    margin: 0px auto;
+    line-height: 1.7;
 }
 
 .btn.btn-secondary{
@@ -24,4 +30,10 @@
 
 .btn.btn-secondary:hover{
     color:#F7B513
+}
+
+.uptitle{
+    font-size:13px!important;
+    color:#A3A3A3!important;
+    font-weight: 400;
 }
