@@ -1,6 +1,6 @@
 @media screen and (max-width: 992px) {
 
-    .menuleft>.menu-left>ul>li{
+    .menuleft>ul>li{
         display:none;
     }
 
@@ -68,22 +68,25 @@
 }
 
 .menuleft{
-    
+/*     
     float:left;
     margin-bottom: 5px;
-    vertical-align: auto;
-    
-
+    vertical-align: auto; */
+    display:flex;
 }
 
 #logo {
-    width:60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 #logo img {
     height:50px;
     width:auto;
-    position: absolute;
-    margin-top:10px;
+    /* position: absolute; */
+    /* margin-top:10px; */
 }
 .row.logo img{
     padding-left: 100px;
@@ -91,8 +94,8 @@
 
 ul {
     list-style-type: none;
-    margin-left:50px;
     width: fit-content;
+    margin-bottom: 0px;
 
 }
 
@@ -115,13 +118,10 @@ ul li a:hover{
 
 
 mat-icon {
-    float:right;
-    margin-right:85px;
     font-weight:900;
     font-size:35px;
     vertical-align:super;
     display: flex;
-    flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;

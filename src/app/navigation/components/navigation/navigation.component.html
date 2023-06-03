@@ -1,9 +1,9 @@
 <div class="menu-container" [ngClass]="{'bghide':showMenu, 'bgshow':!showMenu}">
 
-    <div class="menurow row">
+    <div class="menurow row d-flex justify-content-between">
         <div class="menuleft col-xs-6 col-sm-10 col-md-10 col-lg-10">
-            <div class="menu-left">
-                <div id="logo">
+            <!-- <div class="menu-left"> -->
+                <div id="logo" class="logo ms-5">
                     <img src="../../assets/images/MyLogo/logo_white.png" alt="Oggy design logo in gray color">
                 </div>
                 <ul [ngClass]="{'hide':showMenu,'show':!showMenu}">
@@ -33,18 +33,18 @@
 
 
                 </ul>
-            </div>
+            <!-- </div> -->
         </div>
 
         <div class="menuright col-xs-6 col-sm-2 col-md-2 col-lg-2 text-end">
-            <div class="bigScreen" *ngIf="showMenu==true; else elseBlock">
+            <div class="bigScreen me-5" *ngIf="showMenu==true; else elseBlock">
                 <small>Menu</small>
                 <mat-icon aria-hidden="false" aria-label="expand_more" class="more"
                     (click)="onMouseClick()">expand_more</mat-icon>
             </div>
 
             <ng-template #elseBlock>
-                <div class="bigScreen col-4 text-end">
+                <div class="bigScreen col-4 text-end me-5">
                     <mat-icon aria-hidden="false" aria-label="expand_more" class="less"
                         (click)="onMouseClick()">expand_less</mat-icon>
                 </div>
