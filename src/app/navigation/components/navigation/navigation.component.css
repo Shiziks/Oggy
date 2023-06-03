@@ -26,7 +26,6 @@
 }
 
 .menu-container {
-    max-width: 110%;
     max-height: 300px;
     margin:0px;
     
@@ -38,8 +37,12 @@
 }
 .menurow.row{
     margin:0px;
-    width:100%;
+    width: auto;
 
+
+}
+.row>* {
+    width: auto!important;
 }
 .bgshow{
     background-color: #424242;

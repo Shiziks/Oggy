@@ -2,7 +2,7 @@
 
     <div class="menurow row d-flex justify-content-between">
         <div class="menuleft col-xs-6 col-sm-10 col-md-10 col-lg-10">
-            <!-- <div class="menu-left"> -->
+            <!-- <h2>proba</h2> -->
                 <div id="logo" class="logo ms-5">
                     <img src="../../assets/images/MyLogo/logo_white.png" alt="Oggy design logo in gray color">
                 </div>
@@ -18,25 +18,17 @@
                                         (click)="scrollToSection(item.path)">{{item.title | titlecase }}</a></li>
                             </ng-container>
                         </ng-template>
-                        <!-- <li><a matRipple 
-                            [matRippleRadius]="radius" 
-                            [matRippleCentered]="centered" 
-                            (click)="scrollToSection(item.path)"
-                            >{{item.title | titlecase }}</a></li> -->
+
                     </ng-container>
-                    <!-- <ng-container *ngFor="let item of menuList |slice:menuItemsLength-1">
-                        <li><a matRipple 
-                            [matRippleRadius]="radius" 
-                            [matRippleCentered]="centered" 
-                            (click)="scrollToSection(item.path)">{{ item.title | titlecase }}</a></li>
-                    </ng-container> -->
+
 
 
                 </ul>
-            <!-- </div> -->
         </div>
 
         <div class="menuright col-xs-6 col-sm-2 col-md-2 col-lg-2 text-end">
+            <!-- <h2>proba</h2> -->
+
             <div class="bigScreen me-5" *ngIf="showMenu==true; else elseBlock">
                 <small>Menu</small>
                 <mat-icon aria-hidden="false" aria-label="expand_more" class="more"
@@ -55,7 +47,7 @@
             <div class="smallScreen me-5 dropdown" (click)="openMenu()" [ngClass]="{'responsive':responsive==true}">
                 <div class="icon" data-bs-toggle="dropdown" aria-expanded="false">
                     <svg xmlns="http://www.w3.org/2000/svg" height="1em"
-                    viewBox="0 0 128 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    viewBox="0 0 128 512">
                     <path fill="#F03A47"
                         d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z" />
                     </svg>
