@@ -19,6 +19,7 @@ export class NavigationComponent implements OnInit {
   menuItemsLength:number=0;
   sub:any;
   hide:boolean=false;
+  responsive:boolean=false;
 
   constructor(private menuItems:NavigationService, 
     private scrollTo:ViewportScroller, 
@@ -72,6 +73,11 @@ export class NavigationComponent implements OnInit {
 
  onDestroy(){
   this.sub.unsubscribe();
+ }
+
+ openMenu(){
+  console.log("It works");
+  this.responsive=!this.responsive;
  }
   
 }

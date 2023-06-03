@@ -1,3 +1,29 @@
+@media screen and (max-width: 992px) {
+
+    .menuleft>.menu-left>ul>li{
+        display:none;
+    }
+
+    .smallScreen{
+        position: relative;
+        display: block!important;
+    }
+
+    /* ul>li.smallScreen {
+      visibility: visible;
+    } */
+    .bigScreen{
+        visibility: hidden;
+    }
+    .menuright{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: flex-end;
+    }
+
+}
 
 .menu-container {
     max-width: 110%;
@@ -24,7 +50,7 @@
 .bghide{
     background-color: transparent;
 }
-.menuright {
+.bigScreen {
     margin-top:25px;
     margin-bottom: 25px;
     float:right;
@@ -34,7 +60,7 @@
     justify-content: flex-end;
     align-items: center;
 }
-.menuright small{
+.bigScreen small{
     font-weight: 800;
     color:#F03A47;
     font-size: 14px;
@@ -119,6 +145,39 @@ mat-icon.more{
 .hide{
     display:none;
 }
+
+.smallScreen{
+    display: none;
+    font-size: x-large;
+}
+
+.dropdown-menu.show{
+    display: block;
+    background-color: rgba(66, 66, 66, 0.8);
+    border-radius: 3px;
+    border:none;
+}
+
+.dropdown-menu>li{
+    margin-top:5%;
+}
+.dropdown-menu>li:hover{
+    background-color: transparent; 
+}
+.dropdown-menu>li>a:hover{
+    color:#F7B513;
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -30,6 +30,10 @@ h1, span {
     font-size: 13px;
 }
 
+.imagecenter{
+  display: flex;
+}
+
 
 
 .rectangle {

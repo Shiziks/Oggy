@@ -11,7 +11,6 @@
 }
 
 div.card{
-
     box-shadow: rgba(240, 58, 71, 0.9) 4px 4px!important;
     border:0.5px solid white!important;
     background-color: #424242;
@@ -26,18 +25,14 @@ div.card{
 }
 
 .cardbody{
-
     color: lightgray;
-    /* font-size: 15px; */
     line-height: 1.7;
     font-family: "nutinosans-light";
     text-align: justify;
 }
 
 .cardlink{
-    /* margin-bottom:2px!important; */
     margin-left: inherit;
-    /* position: absolute; */
     bottom: 10%;
     background-color: transparent;
     border:none;
@@ -47,10 +42,8 @@ div.card{
 
 .cardlink a {
     padding: 4px;
-    /* border:1px solid lightgray; */
     border-radius:3px;
     font-weight: 200;
-    /* box-shadow: 1px 1px 1px 0px #bdbdbd; */
     text-decoration: none!important;
     color:white!important;
     box-shadow: rgba(240, 58, 71, 0.6) 3px 3px;
@@ -63,7 +56,6 @@ div.card{
     cursor: pointer;
 }
 
-
 mat-divider{
     background-color: lightgray;
 }
@@ -75,6 +67,5 @@ mat-divider{
     font-size:35px;
     fill: none !important;
     color: #F03A47 !important;
-
 }
 

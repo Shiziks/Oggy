@@ -1,27 +1,21 @@
 <div class="menu-container" [ngClass]="{'bghide':showMenu, 'bgshow':!showMenu}">
 
     <div class="menurow row">
-        <div class="menuleft col-8">
-            <div class="container menu-left">
+        <div class="menuleft col-xs-6 col-sm-10 col-md-10 col-lg-10">
+            <div class="menu-left">
                 <div id="logo">
                     <img src="../../assets/images/MyLogo/logo_white.png" alt="Oggy design logo in gray color">
                 </div>
                 <ul [ngClass]="{'hide':showMenu,'show':!showMenu}">
                     <ng-container *ngFor="let item of menuList">
                         <ng-container *ngIf="!hide; else showHome">
-                            <li><a matRipple 
-                                [matRippleRadius]="radius" 
-                                [matRippleCentered]="centered" 
-                                (click)="scrollToSection(item.path)"
-                                >{{item.title | titlecase }}</a></li>
+                            <li><a matRipple [matRippleRadius]="radius" [matRippleCentered]="centered"
+                                    (click)="scrollToSection(item.path)">{{item.title | titlecase }}</a></li>
                         </ng-container>
                         <ng-template #showHome>
                             <ng-container *ngIf="item.path==='home'">
-                                <li><a matRipple 
-                                    [matRippleRadius]="radius" 
-                                    [matRippleCentered]="centered" 
-                                    (click)="scrollToSection(item.path)"
-                                    >{{item.title | titlecase }}</a></li>
+                                <li><a matRipple [matRippleRadius]="radius" [matRippleCentered]="centered"
+                                        (click)="scrollToSection(item.path)">{{item.title | titlecase }}</a></li>
                             </ng-container>
                         </ng-template>
                         <!-- <li><a matRipple 
@@ -37,24 +31,51 @@
                             (click)="scrollToSection(item.path)">{{ item.title | titlecase }}</a></li>
                     </ng-container> -->
 
+
                 </ul>
             </div>
         </div>
-        
-        <div class="menuright col-4 text-end" *ngIf="showMenu==true; else elseBlock">
-            <small>Menu</small>    
-            <mat-icon aria-hidden="false" aria-label="expand_more" class="more" (click)="onMouseClick()">expand_more</mat-icon>
-                </div>
+
+        <div class="menuright col-xs-6 col-sm-2 col-md-2 col-lg-2 text-end">
+            <div class="bigScreen" *ngIf="showMenu==true; else elseBlock">
+                <small>Menu</small>
+                <mat-icon aria-hidden="false" aria-label="expand_more" class="more"
+                    (click)="onMouseClick()">expand_more</mat-icon>
+            </div>
 
             <ng-template #elseBlock>
-                <div class="menuright col-4 text-end">   
-                    <mat-icon aria-hidden="false" aria-label="expand_more" class="less" (click)="onMouseClick()">expand_less</mat-icon>
+                <div class="bigScreen col-4 text-end">
+                    <mat-icon aria-hidden="false" aria-label="expand_more" class="less"
+                        (click)="onMouseClick()">expand_less</mat-icon>
                 </div>
             </ng-template>
-       
-        
-        
-        
+
+
+
+            <div class="smallScreen me-5 dropdown" (click)="openMenu()" [ngClass]="{'responsive':responsive==true}">
+                <div class="icon" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                    viewBox="0 0 128 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path fill="#F03A47"
+                        d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z" />
+                    </svg>
+                </div>
+                
+                <ul class="dropdown-menu">
+                    <ng-container *ngFor="let item of menuList">
+                            <li class="smallscreenli dropdown-item">
+                                <a matRipple [matRippleRadius]="radius" [matRippleCentered]="centered"
+                                    (click)="scrollToSection(item.path)">{{item.title | titlecase }}
+                                </a>
+                            </li>
+                    </ng-container>
+                </ul>
+            </div>
+        </div>
+
+
+
+
 
     </div>
 </div>
