@@ -27,19 +27,11 @@
 
 .menu-container {
     max-height: 300px;
-    margin:0px;
-    
-    
-    
+    margin:0px;    
 }
-.menu.row{
-    margin:0px;
-}
+
 .menurow.row{
-    margin:0px;
     width: auto;
-
-
 }
 .row>* {
     width: auto!important;
