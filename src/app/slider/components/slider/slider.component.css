@@ -1,8 +1,73 @@
+@media screen and (max-width:1400px){
+    .container-slider{
+        height: 58vh!important; 
+    }  
+    .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+        height: 58vh!important;
+    }
+    .carousel-control-next, .carousel-control-next, .carousel-control-prev, .carousel-control-prev {
+        height: 58vh!important;
+    }    
+
+}
+@media screen and (max-width:1200px){
+    .container-slider{
+        height: 51vh!important; 
+    }  
+    .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+        height: 51vh!important;
+    }
+    .carousel-control-next, .carousel-control-next, .carousel-control-prev, .carousel-control-prev {
+        height: 51vh!important;
+    }    
+
+}
+@media screen and (max-width:992px){
+    .container-slider{
+        height: 40vh!important; 
+    }  
+    .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+        height: 40vh!important;
+    }
+    .carousel-control-next, .carousel-control-next, .carousel-control-prev, .carousel-control-prev {
+        height: 40vh!important;
+    }    
+
+}
+@media screen and (max-width:768px){
+    .container-slider{
+        height: 35vh!important; 
+    }  
+    .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+        height: 35vh!important;
+    }
+    .carousel-control-next, .carousel-control-next, .carousel-control-prev, .carousel-control-prev {
+        height: 35vh!important;
+    }    
+
+}
+@media screen and (max-width:576px){
+    .container-slider{
+        height: 28vh!important; 
+    }  
+    .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+        height: 28vh!important;
+    }
+    .carousel-control-next, .carousel-control-next, .carousel-control-prev, .carousel-control-prev {
+        height: 28vh!important;
+    }   
+
+}
+
+
+
+
 .container-slider{
     width: 100%;
+    height: 70vh; 
+    overflow: hidden;
 }
 .carousel-item{
-    height: 80vh; 
     position: relative;
 }
 
@@ -15,4 +80,11 @@
     top:0;
     bottom:0;
     vertical-align: middle;
+}
+
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+    height: 70vh;
+}
+.carousel-control-next, .carousel-control-next, .carousel-control-prev, .carousel-control-prev {
+    height: 70vh;
 }
